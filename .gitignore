@@ -1,0 +1,90 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Static files
+staticfiles/
+
+# Media files
+media/
+
+# Log files
+*.log
+
+# Ignore the secret key settings file in production
+/settings/production.py
+
+# Ignore local development settings file
+/settings/local.py
+
+# Ignore sensitive information (e.g., credentials)
+/secrets.json
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore temporary and backup files
+*.tmp
+*.bak
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.dev
+.env.prod
+
+# Ignore pipenv files
+Pipfile
+Pipfile.lock
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore coverage reports
+htmlcov/
+
+# Ignore generated documentation
+docs/_build/
+
+# Ignore compiled JavaScript files
+*.js
+
+# Ignore compiled CSS files
+*.css
+
+# Ignore compiled TypeScript files
+*.ts
+*.tsx
+
+# Ignore npm package directories
+node_modules/
